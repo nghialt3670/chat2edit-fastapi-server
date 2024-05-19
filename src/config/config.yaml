@@ -1,0 +1,20 @@
+openai:
+  api_key: <YOUR_API_KEY>
+  model: gpt-3.5-turbo
+
+tools:
+  groundingdino:
+    checkpoint: ../chat2edit/checkpoints/groundingdino_swint_ogc.pth
+    config: ../chat2edit/config/GroundingDINO_SwinT_OGC.py
+    device: cuda
+
+  sam:
+    checkpoint: ../chat2edit/checkpoints/sam_vit_b_01ec64.pth
+    model_type: vit_b
+    device: cuda
+
+  lama:
+    checkpoint: ../chat2edit/checkpoints/big-lama.pt
+    device: cuda
+
+
