@@ -1,6 +1,5 @@
-from typing import Dict, List, Tuple, Union
+from typing import Dict, List, Tuple, Union, Optional
 from uuid import uuid4
-from altair import Optional
 from pydantic import BaseModel, Field
 from PIL import Image
 

@@ -3,17 +3,10 @@ from io import BytesIO
 from PIL import Image
 import cv2
 import numpy as np
-import base64
-import inspect
-import re
 
-from uuid import uuid4
-from functools import wraps
-from types import ModuleType
-from sklearn.metrics.pairwise import cosine_similarity
 from io import BytesIO
 from PIL import Image
-from typing import Tuple, Sequence, List, Literal
+from typing import Tuple, Literal
 from cv2 import (
     BORDER_DEFAULT,
     MORPH_ELLIPSE,

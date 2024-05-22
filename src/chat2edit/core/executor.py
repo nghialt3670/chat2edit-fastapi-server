@@ -1,8 +1,6 @@
 import inspect
 from typing import Any, Callable, Dict, Iterable, List, Optional
 
-from altair import value
-
 from chat2edit.core.exec_signal import ExecSignal
 from chat2edit.core.message import Attachment, ExecMessage, SysMessage
 from chat2edit.core.method_provider import MethodProvider
